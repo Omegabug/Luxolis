@@ -27,6 +27,7 @@ export const LoginForm = (props) => {
 
   return (
     <form >
+      
       <div className="username">
         <div className="overlap-group-2">
           <img className="img" alt="User" src={userIcon} />
@@ -47,7 +48,9 @@ export const LoginForm = (props) => {
       <Popup trigger={errorPopup}>
         <h3>testerino</h3>
       </Popup>  
+      
     </form>
+    
     
   );
 }

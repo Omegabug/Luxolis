@@ -27,7 +27,7 @@ export const Login = () => {
 
             <LoginForm/>
           </div>
-          
+         
 
           {/*}
           <div className="form">           
