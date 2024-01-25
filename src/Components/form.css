@@ -34,3 +34,30 @@
     width: 255px;
   }
   
+  .dashboard-login .img {
+    height: 20px;
+    left: 11px;
+    position: absolute;
+    top: 12px;
+    width: 20px;
+  }
+  
+  .dashboard-login .password {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 234px;
+    width: 302px;
+  }
+  
+  .dashboard-login .login-btn {
+    all: unset;
+    display:block;
+    box-sizing: border-box;
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 322px;
+    width: 302px;
+  }
+  
