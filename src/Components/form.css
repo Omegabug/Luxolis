@@ -1,0 +1,36 @@
+.dashboard-login .form {
+    height: 398px;
+    left: 852px;
+    position: absolute;
+    top: 162px;
+    width: 302px;
+  }
+  
+  .dashboard-login .username {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 169px;
+    width: 302px;
+  }
+  
+  .dashboard-login .overlap-group-2 {
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 4px;
+    height: 45px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .dashboard-login input {
+    background-color: #2148c0;
+    border: none;
+    mask-border: none;
+    left: 20px;
+    color: #ffffff;
+    height: 38px;
+    position: relative;
+    width: 255px;
+  }
+  
