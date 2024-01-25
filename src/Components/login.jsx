@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
+import userIcon from "./Assets/user.svg";
 
-export const DashboardLogin = () => {
+export const Login = () => {
   return (
     <div className="dashboard-login">
       <div className="overlap-wrapper">
@@ -16,8 +17,8 @@ export const DashboardLogin = () => {
           <div className="form">
             <div className="username">
               <div className="overlap-group-2">
-                <div className="text-wrapper">USERNAME</div>
-                <img className="img" alt="User" src="user.svg" />
+              <input type="text" name="Username" />
+                <img className="img" alt="User" src={userIcon} />
               </div>
             </div>
             <div className="password">
