@@ -10,88 +10,66 @@
     background-color: #2148c0;
     height: 720px;
     overflow: hidden;
-    width: 1280px;
+    width: 100%;
   }
   
   .dashboard-login .overlap {
-    height: 1083px;
-    left: -362px;
+    position: flex;
+    height: 150%;
+    left: -25%;
     position: relative;
     top: -1px;
-    width: 1642px;
+    width: 150%;
   }
   
   .dashboard-login .BG {
-    height: 1083px;
+    height: 150%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 1642px;
+    width: 150%;
   }
   
   .dashboard-login .overlap-group {
     background-color: #264ec9;
-    border-radius: 362px;
-    height: 724px;
+    border-radius: 327%;
+    height: 52%;
     left: 0;
     position: absolute;
-    top: 359px;
-    width: 724px;
+    top: 23%;
+    width: 22%;
   }
+  
   
   .dashboard-login .ellipse {
     background-color: #234bc5;
-    border-radius: 286px;
-    height: 572px;
-    left: 76px;
+    border-radius: 100%;
+    height: 68%;
+    left: 12%;
     position: absolute;
-    top: 76px;
-    width: 572px;
+    top: 9%;
+    width: 77%;
   }
   
   .dashboard-login .div {
     background-color: #274ec7;
-    border-radius: 219px;
-    height: 438px;
-    left: 143px;
+    border-radius: 54%;
+    height: 46%;
+    left: 19%;
     position: absolute;
-    top: 143px;
-    width: 438px;
+    top: 18%;
+    width: 57%;
   }
-  
+
   .dashboard-login .vector {
-    height: 720px;
-    left: 778px;
+    right: 44%;
     position: absolute;
     top: 1px;
-    width: 864px;
+    width: 26%;
   }
   
-  .dashboard-login .form {
-    height: 398px;
-    left: 852px;
-    position: absolute;
-    top: 162px;
-    width: 302px;
-  }
   
-  .dashboard-login .username {
-    height: 45px;
-    left: 0;
-    position: absolute;
-    top: 169px;
-    width: 302px;
-  }
-  
-  .dashboard-login .overlap-group-2 {
-    border: 1px solid;
-    border-color: #ffffff;
-    border-radius: 4px;
-    height: 45px;
-    position: relative;
-    width: 300px;
-  }
-  
+ 
   .dashboard-login .text-wrapper {
     color: #ffffff;
     font-family: "Montserrat-Light", Helvetica;
@@ -106,31 +84,6 @@
     white-space: nowrap;
   }
   
-  .dashboard-login .img {
-    height: 20px;
-    left: 11px;
-    position: absolute;
-    top: 12px;
-    width: 20px;
-  }
-  
-  .dashboard-login .password {
-    height: 45px;
-    left: 0;
-    position: absolute;
-    top: 234px;
-    width: 302px;
-  }
-  
-  .dashboard-login .login-btn {
-    all: unset;
-    box-sizing: border-box;
-    height: 45px;
-    left: 0;
-    position: absolute;
-    top: 322px;
-    width: 302px;
-  }
   
   .dashboard-login .login-wrapper {
     background-color: #ffffff;
