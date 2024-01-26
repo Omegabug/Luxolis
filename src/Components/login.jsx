@@ -6,7 +6,7 @@ import vector from "./Assets/vector.svg";
 import {LoginForm} from './form';
 
 
-export const Login = () => {
+export const Login = (props) => {
   return (
     <div className="dashboard-login">
 
@@ -25,45 +25,9 @@ export const Login = () => {
           <div className="form">
           <img className="group" alt="group" src={cartIcon} />
 
-            <LoginForm/>
+            <LoginForm connection={props.connection}/>
           </div>
-         
-
-          {/*}
-          <div className="form">           
-              <div className="username">
-                <div className="overlap-group-2">
-
-                  <img className="img" alt="User" src={userIcon} />
-                  
-                  <form onSubmit={handleSubmit} >
-
-                    <input value ={userName} placeholder="USERNAME"   />
-                  </form>
-                    
-                </div>    
-               
-              </div>
-              <div className="password">
-                <div className="overlap-group-2">
-                  <img className="img" alt="Lock" src={lockIcon} />
-                  <form onSubmit={handleSubmit} >
-
-                    <input placeholder="PASSWORD" />
-
-                  </form>
-                </div>
-              </div>
-            
-            <button className="login-btn" onClick={handleSubmit}>
-              <div className="login-wrapper">
-                <div className="login">LOGIN</div>
-              </div>
-            </button>
-            <div className="text-wrapper-2">Forgot password?</div>
-            <img className="group" alt="group" src={cartIcon} />
-          </div>
-          */}
+        
         </div>
       </div>
     </div>

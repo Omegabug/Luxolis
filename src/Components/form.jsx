@@ -16,6 +16,7 @@ export const LoginForm = (props) => {
     console.log(userName);
     if ( userName ==="test@luxpmsoft.com" && password === "test1234!"){
       console.log("connected");
+      props.connection();
     }
       
     else{
@@ -24,7 +25,11 @@ export const LoginForm = (props) => {
     }
       
   }
+  function closePopup(e){
+    e.preventDefault();
+    setErrorPopup(false);
 
+  }
   return (
     <form >
       
@@ -40,13 +45,14 @@ export const LoginForm = (props) => {
           <input value = {password} onChange={(e) => setPassword(e.target.value)} type="password" id="password" placeholder="PASSWORD" required={true} />
         </div>
       </div>
+      
       <button className="login-btn" onClick={handleSubmit} >
         <div className="login-wrapper">
           <div className="login">LOGIN</div>
         </div>
       </button>
-      <Popup trigger={errorPopup}>
-        <h3>testerino</h3>
+      <Popup trigger={errorPopup} closePopup={closePopup}>
+        <h3>The provided password is wrong</h3>
       </Popup>  
       
     </form>

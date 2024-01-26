@@ -1,4 +1,4 @@
-.popup {
+/*.popup {
     position: absolute;
     top:0;
     left:0;
@@ -19,4 +19,31 @@
     position: absolute;
     top: 16px;
     right: 16px;
-}
+}*/
+.popup {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: fixed;
+    transition: all 5s ease-in-out;
+  }
+  
+
+  .popup .closeButton {
+    position: relative;
+    bottom: 0%;
+    left: 39%;
+    transition: all 200ms;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .closeButton:hover {
+    color: #06D85F;
+  }
+  .popup .popupInner {
+    max-height: 30%;
+    overflow: auto;
+  }

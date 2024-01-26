@@ -1,6 +1,6 @@
 .dashboard-login .form {
     height: 50%;
-    left: 41%;
+    left: 44%;
     position: absolute;
     top: 162px;
 }
@@ -28,7 +28,7 @@
   mask-border: none;
   left: 20px;
   color: #ffffff;
-  height: 38px;
+  height:  42px;
   position: relative;
   width: 255px;
 }
@@ -58,4 +58,7 @@
   position: absolute;
   top: 322px;
   width: 302px;
+}
+.dashboard-login .login-wrapper:hover {
+  color: #2148c0;
 }

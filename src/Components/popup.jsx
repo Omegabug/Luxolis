@@ -7,7 +7,7 @@ export const Popup = (props) => {
     <div className='popup'>
       <div className='popupInner'>
         {props.children}
-        <button className='closeButton'>Close</button>
+        <button className='closeButton' onClick={props.closePopup}>Close</button>
       </div>
     </div>
   ) :"";
