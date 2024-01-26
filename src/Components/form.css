@@ -62,3 +62,11 @@
 .dashboard-login .login-wrapper:hover {
   color: #2148c0;
 }
+
+.dashboard-login .errorMessage {
+  left: -80px;
+  position: absolute;
+  top: 282px;
+  width: 302px;
+  color: white;
+}

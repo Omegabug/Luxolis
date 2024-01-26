@@ -45,7 +45,11 @@ export const LoginForm = (props) => {
           <input value = {password} onChange={(e) => setPassword(e.target.value)} type="password" id="password" placeholder="PASSWORD" required={true} />
         </div>
       </div>
-      
+      <div className="errorMessage">
+        {
+          errorPopup ? <i>Wrong combination</i> : <div></div>
+        }
+      </div>
       <button className="login-btn" onClick={handleSubmit} >
         <div className="login-wrapper">
           <div className="login">LOGIN</div>
