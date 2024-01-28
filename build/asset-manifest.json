@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Luxolis/static/css/main.5ee6f1f1.css",
+    "main.js": "/Luxolis/static/js/main.511d28cc.js",
+    "static/js/787.67026c25.chunk.js": "/Luxolis/static/js/787.67026c25.chunk.js",
+    "static/media/cart.svg": "/Luxolis/static/media/cart.f613c110ecb3f51bd2138f7bbc7f29d2.svg",
+    "static/media/lock.svg": "/Luxolis/static/media/lock.0133c57503774f5ebf9cd1d3786d2eec.svg",
+    "index.html": "/Luxolis/index.html",
+    "static/media/user.svg": "/Luxolis/static/media/user.a17cede75898a5ebaeccbc012f80479b.svg",
+    "static/media/vector.svg": "/Luxolis/static/media/vector.0b6e6dbcee5da9017f628ef2ca5f17cc.svg",
+    "main.5ee6f1f1.css.map": "/Luxolis/static/css/main.5ee6f1f1.css.map",
+    "main.511d28cc.js.map": "/Luxolis/static/js/main.511d28cc.js.map",
+    "787.67026c25.chunk.js.map": "/Luxolis/static/js/787.67026c25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ee6f1f1.css",
+    "static/js/main.511d28cc.js"
+  ]
+}
